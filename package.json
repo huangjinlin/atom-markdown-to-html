@@ -1,0 +1,19 @@
+{
+  "name": "markdown-to-html",
+  "main": "./lib/markdown-to-html",
+  "version": "0.0.1",
+  "description": "a atom package for save markdown to html",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "markdown-to-html:toggle"
+  },
+  "repository": "https://github.com/atom/markdown-to-html",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "marked": "^0.4.0"
+  }
+}

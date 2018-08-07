@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle markdown-to-html",
+        "command": "markdown-to-html:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "markdown-to-html",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-to-html:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
