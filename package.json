@@ -3,7 +3,10 @@
   "main": "./lib/markdown-to-html",
   "version": "0.0.1",
   "description": "a atom package for save markdown to html",
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "html"
+  ],
   "activationCommands": {
     "atom-workspace": "markdown-to-html:toggle"
   },
