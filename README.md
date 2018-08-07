@@ -28,9 +28,17 @@ Ctrl+L(in devtool)
 ``` bash
 git tag -a v0.0.1 -m "release 0.0.1 version"
 git push origin --tags
-apm public
+apm publish minor
 ```
 
+## tip
+- how to active when init
+remove activationCommands in package.json
+``` json
+"activationCommands": {
+  "atom-workspace": "markdown-to-html:toggle"
+},
+```
 ## refer to
 - [Atom插件开发入门教程](https://blog.csdn.net/xujiayin/article/details/54135100)
 - [package-word-count](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/)
