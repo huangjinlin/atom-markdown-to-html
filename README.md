@@ -26,8 +26,11 @@ Ctrl+L(in devtool)
 ## publish
 
 ``` bash
+# first time
 git tag -a v0.0.1 -m "release 0.0.1 version"
 git push origin --tags
+apm publish minor
+# other time
 apm publish minor
 ```
 
