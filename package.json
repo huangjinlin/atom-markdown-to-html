@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "markdown-to-html:toggle"
   },
-  "repository": "https://github.com/atom/markdown-to-html",
+  "repository": "https://github.com/huangjinlin/atom-markdown-to-html.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
