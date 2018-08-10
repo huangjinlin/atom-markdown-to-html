@@ -49,3 +49,8 @@ remove activationCommands in package.json
 - [atom-markdown-toc-auto](https://github.com/t9md/atom-markdown-toc-auto)
 - [uglify-on-save](https://github.com/aadityataparia/uglify-on-save)
 - [git 打标签并推送tag到托管服务器](https://www.cnblogs.com/ShaYeBlog/p/5576601.html)
+
+##todo
+- 配置页面-对哪些文件不进行转换
+- 配置页面-保存文件执行转换的开关
+- 通过命令执行
