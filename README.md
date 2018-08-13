@@ -6,7 +6,7 @@ a atom package for save markdown to html
 ## features
 - press "ctrl+s" to convert markdown to html in same path
 - the html style from github and has toTop button
-- ignore some md file,when have `<!--not to html-->` in file
+- ignore some md file,when have `<!--not to html-->`/`<!-- not to html -->` in file
 
 ## installation
 
