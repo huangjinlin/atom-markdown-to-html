@@ -1,3 +1,4 @@
+<!--not to html-->
 # atom-markdown-to-html
 
 a atom package for save markdown to html
@@ -5,6 +6,7 @@ a atom package for save markdown to html
 ## features
 - press "ctrl+s" to convert markdown to html in same path
 - the html style from github and has toTop button
+- ignore some md file,when have `<!--not to html-->` in file
 
 ## installation
 
@@ -51,6 +53,5 @@ remove activationCommands in package.json
 - [git 打标签并推送tag到托管服务器](https://www.cnblogs.com/ShaYeBlog/p/5576601.html)
 
 ##todo
-- 配置页面-对哪些文件不进行转换
 - 配置页面-保存文件执行转换的开关
 - 通过命令执行
