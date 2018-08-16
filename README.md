@@ -13,6 +13,12 @@ a atom package for save markdown to html
 ``` bash
 apm install markdown-to-html
 ```
+## create
+``` bash
+# command palette
+Ctrl+Shift+P
+input "Generate Package"
+```
 
 ## debug
 
